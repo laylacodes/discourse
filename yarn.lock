@@ -1672,6 +1672,13 @@
   dependencies:
     "@simple-dom/interface" "^1.4.0"
 
+"@glimmer/interfaces@^0.91.1":
+  version "0.91.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.91.1.tgz#6f02ff872c46aa219b9b79108f3bf553338f017d"
+  integrity sha512-yUCpAC28UZUxzr5WK8bfx9z4MbSpOV6pAJ/XmJibzx4+un9Is+5ZvZ0t3QHMHs2Qi9N606412qLjLJ/HLgsd4w==
+  dependencies:
+    "@simple-dom/interface" "^1.4.0"
+
 "@glimmer/low-level@0.78.2":
   version "0.78.2"
   resolved "https://registry.yarnpkg.com/@glimmer/low-level/-/low-level-0.78.2.tgz#bca5f666760ce98345e87c5b3e37096e772cb2de"
@@ -1784,6 +1791,17 @@
     "@handlebars/parser" "~2.0.0"
     simple-html-tokenizer "^0.5.11"
 
+"@glimmer/syntax@^0.91.1":
+  version "0.91.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.91.1.tgz#dcdfe02d2730175e71018365827a6591eb41fc35"
+  integrity sha512-/US6/yxgBlyw/etw7ptmQvbg134th2JJg6EJYp1Y8oIsFkjkB+huYkSxidcG0ENUNwy6FMefg/XjiSq/C9qrqw==
+  dependencies:
+    "@glimmer/interfaces" "^0.91.1"
+    "@glimmer/util" "^0.91.1"
+    "@glimmer/wire-format" "^0.91.1"
+    "@handlebars/parser" "~2.0.0"
+    simple-html-tokenizer "^0.5.11"
+
 "@glimmer/tracking@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@glimmer/tracking/-/tracking-1.1.2.tgz#74e71be07b0a7066518d24044d2665d0cf8281eb"
@@ -1813,6 +1831,14 @@
   dependencies:
     "@glimmer/env" "0.1.7"
     "@glimmer/interfaces" "^0.88.1"
+
+"@glimmer/util@^0.91.1":
+  version "0.91.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.91.1.tgz#1492b9ca600e890debe578d6b4f0fabb8bea802b"
+  integrity sha512-Wc4wCsaPpDZnUx33B8NGDwV+ee0h6XRPABvTBFW0Z+jehJO/aEiWVMEA6zjuH8B1rq+/RQYY7gvZR2/g+mxIGw==
+  dependencies:
+    "@glimmer/env" "0.1.7"
+    "@glimmer/interfaces" "^0.91.1"
 
 "@glimmer/validator@0.84.3", "@glimmer/validator@^0.84.3":
   version "0.84.3"
@@ -1857,6 +1883,14 @@
   dependencies:
     "@glimmer/interfaces" "^0.88.1"
     "@glimmer/util" "^0.88.1"
+
+"@glimmer/wire-format@^0.91.1":
+  version "0.91.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/wire-format/-/wire-format-0.91.1.tgz#a78d7d28622eaf00decfa8ce2823f3c5b217744c"
+  integrity sha512-/2J5zFcbiw26RssDX4lJYh4jm0ZMYK7Nx/ZOml8L82O6jDStNAVTE2/KKs6OuxcuFvT4cxchK1rcUVxBfVGoLQ==
+  dependencies:
+    "@glimmer/interfaces" "^0.91.1"
+    "@glimmer/util" "^0.91.1"
 
 "@glint/core@^1.3.0":
   version "1.3.0"
